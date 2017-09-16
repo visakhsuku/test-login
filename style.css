@@ -59,3 +59,15 @@ button{
 	left: 50%;
 	top: 50%;
 	}
+
+	.link{
+		position: absolute;
+		font-size: 1.5vw;
+	bottom: 5%;
+	right: 5%;
+	color: white;
+	}
+	a{
+		text-decoration: none;
+		color: #aaa;
+	}
