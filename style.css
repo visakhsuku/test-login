@@ -58,6 +58,19 @@ input{
 button{
 	left: 50%;
 	top: 50%;
+    display: inline-block;
+  margin: 100px 0 0 0;
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 20%;
+    color: rgba(255,255,255, 0.7);
+  background: rgba(0,0,0, 0.3);
+  border: solid 5px rgba(0,0,0, 0.1);;
 	}
 
 	.link{
@@ -70,4 +83,8 @@ button{
 	a{
 		text-decoration: none;
 		color: #aaa;
+	}
+
+	.apply{
+		color: rgba(0,0,0, 0.2);
 	}
