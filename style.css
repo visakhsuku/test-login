@@ -57,35 +57,38 @@ input{
   color: rgba(255,255,255, 0.8);
 }
 button{
-	left: 50%;
-	top: 50%;
-    display: inline-block;
-  margin: 100px 0 0 0;
-  padding: 5px 15px;
-  font-size: 20px;
-  font-weight: bold;
+	margin-top: 100px;
+	width: 200px;
+	height: 50px;
+	border: 2px solid #1e5114;
+	background-color: white;
+	transition: all 0.5s ease;
+	border-radius: 5px;
+}
 
-  line-height: 1.8;
-  appearance: none;
-  box-shadow: none;
-  border-radius: 20%;
-    color: rgba(255,255,255, 0.7);
-  background: rgba(0,0,0, 0.3);
-  border: solid 5px rgba(0,0,0, 0.1);;
-	}
-
-	.link{
+.link{
 		position: absolute;
 		font-size: 1.5vw;
 	bottom: 5%;
 	right: 5%;
 	color: white;
-	}
-	a{
+}
+a
+{
 		text-decoration: none;
 		color: #aaa;
-	}
+}
 
-	.apply{
-		color: rgba(0,0,0, 0.2);
-	}
+.apply{
+	color: #1e5114;
+	transition: all 0.5s ease;
+}
+
+button:hover{
+	border: 2px solid white;
+	background-color: #92c189;
+}
+
+.apply:hover{
+	color: white !important;
+}	
